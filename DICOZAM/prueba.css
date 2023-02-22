@@ -1,0 +1,248 @@
+html{
+/* Group 1 */
+
+
+
+position: absolute;
+width: 1466px;
+height: 85px;
+left: -26px;
+top: 0px;
+
+
+
+/* Group 2 */
+
+
+position: absolute;
+width: 207px;
+height: 67px;
+left: 22px;
+top: 13px;
+
+
+
+/* Directorio Comercial De Zamora */
+
+
+position: absolute;
+width: 199px;
+height: 16px;
+left: 9px;
+top: 50px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+
+/* Group 3 */
+
+
+position: absolute;
+width: 441px;
+height: 33px;
+left: 510px;
+top: 30px;
+
+
+
+/* 694985 1 */
+
+
+position: absolute;
+width: 29px;
+height: 29px;
+left: 518px;
+top: 32px;
+
+background: url(694985.png);
+mix-blend-mode: normal;
+
+
+/* Line 4 */
+
+
+position: absolute;
+width: 31px;
+height: 0px;
+left: 547px;
+top: 31px;
+
+border: 1px solid #000000;
+transform: rotate(90deg);
+
+
+/* Rectangle 3 */
+
+
+position: absolute;
+width: 1466px;
+height: 62px;
+left: -26px;
+top: 85px;
+
+background: #FF9800;
+
+
+/* pexels-ricardo-esquivel-1907785 1 */
+
+
+position: absolute;
+width: 1440px;
+height: 172px;
+left: 0px;
+top: 147px;
+
+background: url(pexels-ricardo-esquivel-1907785.jpg);
+
+
+/* Line 5 */
+
+
+position: absolute;
+width: 62.01px;
+height: 0px;
+left: 126px;
+top: 85px;
+
+border: 1px solid #3B3B55;
+transform: rotate(89.08deg);
+
+
+/* d26-2 1 */
+
+
+position: absolute;
+width: 1039px;
+height: 182px;
+left: 109px;
+top: 221px;
+
+
+
+/* INICIO */
+
+
+position: absolute;
+width: 128px;
+height: 31px;
+left: 23px;
+top: 101px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #F4F4F4;
+
+
+
+/* pexels-pixabay-267586 1 */
+
+
+position: absolute;
+width: 1466px;
+height: 173px;
+left: -26px;
+top: 147px;
+
+background: url(pexels-pixabay-267586.jpg);
+
+
+/* BIENVENIDOS */
+
+
+position: absolute;
+width: 328px;
+height: 58px;
+left: 543px;
+top: 175px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+
+/* Descubre los comercios de tu ciudad */
+
+
+position: absolute;
+width: 643px;
+height: 44px;
+left: 385px;
+top: 245px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+
+/* SUGERENCIAS: */
+
+
+position: absolute;
+width: 240px;
+height: 39px;
+left: 611px;
+top: 372px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+
+/* menu azul 1 */
+
+
+position: absolute;
+width: 30px;
+height: 25px;
+left: 227px;
+top: 30px;
+
+background: url(menu.azul);
+
+/* Rectangle 6 */
+
+
+position: absolute;
+width: 1440px;
+height: 100px;
+left: 0px;
+top: 1228px;
+
+background: #D9D9D9;
+
+}
+
