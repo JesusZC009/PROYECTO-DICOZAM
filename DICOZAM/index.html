@@ -8,8 +8,6 @@
 
     <style>
         .divbackg {
-            padding: 0%;
-            margin: 0;
             background-image: url("imagenes/libro.jpg");
             height: 200px;
             width: 100%;
@@ -24,47 +22,23 @@
         }
 
         .div-1 {
-            padding: 0%;
-            margin: 0;
             background-color: #FCBB14;
-            height: 5%;
+            height: 35%;
             width: 100%;
+            border: 1px solid black;
         }
 
         .div-2 {
             background-color: #FF9800;
-            padding: 0%;
-            margin: 0;
-            height: 1%;
-            width: 100%;
-        }
-
-        .div-3 {
             float: left;
-            background-color: black;
-            height: 2cm;
-            width: 2cm;
-            padding: 0%;
-            margin: 0;
-        }
+            height: 30%;
+            width: 100%;
 
-        .div-4 {
-            float: right;
-            background-color: black;
-            height: 2cm;
-            width: 2cm;
-            padding: 0%;
-            margin: 0;
-            x
-        }
-
-        .div-5 {
-            border-top: 10cm;
         }
 
 
         #menu {
-            padding: 0;
+            padding: 0px;
 
         }
 
@@ -80,8 +54,29 @@
             padding: 10px;
             background-color: #FF9800;
             color: #fff;
+            background-position: center;
 
+        }
 
+        .parte1 {
+            float: left;
+
+            width: 33%;
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        .parte2 {
+
+            width: 30%;
+            background-color: blue;
+        }
+
+        .parte3 {
+            float: right;
+
+            width: 33%;
+            background-color: rgb(255, 255, 255)(107, 76, 76);
         }
     </style>
 
@@ -89,52 +84,61 @@
 </head>
 
 <body>
-    <div class="div-1">
+    <!--div inicio-->
+    <div style="width: 100%; height: 50%;">
+        <!--div 1-->
+        <div class="div-1">
+            <h1 style="color:#275C7A;">DICOZAM </h1>
+            <center>
+                <h2 style="color: white; ">DESCUBRE LOS COMERCIOS DE TU CIUDAD</h2>
+            </center>
+            <h4 style="color:#000000">Directorio Comercial de Zamora</h4>
+        </div>
+        <!--div 2-->
+        <div class="div-2">
+            <h1 style="color: white;">INICIO</h1>
+        </div>
+        <!--divbackg-->
+        <div class="divbackg">
+            <center>
+                <h1 style="color: white; font-size: 100px;">BIENVENIDOS</h1>
+            </center>
+        </div>
 
-        <h1 style="color:#275C7A">DICOZAM </h1>
-        <center>
-            <h2 style="color: white;">DESCUBRE LOS COMERCIOS DE TU CIUDAD</h2>
-        </center>
-        <h4 style="color:#000000">Directorio comercial de zamora</h4>
-    </div>
-    <div class="div-2">
-        <h1 style="color: white;">INICIO</h1>
-    </div>
-    <div class="divbackg">
-        <center>
-            <h1 style="color: white; ">BIENVENIDOS</h1>
-        </center>
-    </div>
 
+        <!--menus temporales-->
+
+        <nav id="menu">
+
+            <ul>
+                <b>
+                    <li><a href="#">gasolineras</a></li>
+                    <li><a href="#">restaurantes</a></li>
+                    <li><a href="#">gimnasios</a></li>
+                    <li><a href="#">supermercados</a></li>
+                </b>
+            </ul>
+
+        </nav>
+        <br>
+        <br>
     </div>
-    <!--menus temporales-->
+    <div style="width: 100%; height: 50%;">
+        <div class="parte1">
+            <p></p>
+            <img src="imagenes/gasolinera.jpg" style="height: 300px; width: 300px; float: right;">
+        </div>
 
-    <nav id="menu">
 
-        <ul>
-            <b>
-                <li><a href="#">gasolineras</a></li>
-                <li><a href="#">restaurantes</a></li>
-                <li><a href="#">gimnasios</a></li>
-                <li><a href="#">supermercados</a></li>
-            </b>
-        </ul>
 
-    </nav>
 
-    <br>
-    <br>
-    <div class="div-5">
-        <img src="imagenes/gasolinera.jpg" width="300px" height="300px" style="float: left;">
+        <div class="parte3">
+            <p></p>
+            <img src="imagenes/restaurant.jpg" style="height: 300px; width: 300px; float: left;">
+        </div>
     </div>
+    
 
-    <img src="imagenes/restaurant.jpg" width="300px" height="300px" style="float: right;">
-    <div class="div-3">
-        <h4 style="color: white;">ver</h4 center>
-    </div>
-    <div class="div-4">
-        <h4 style="color: white;">ver</h4>
-    </div>
 </body>
 
 </html>
