@@ -58,6 +58,27 @@
 
         }
 
+        #men {
+            padding: 0px;
+
+        }
+
+        #men li {
+            display: inline;
+        }
+
+        #men li a {
+            font-family: Arial;
+            font-size: 15px;
+            text-decoration: none;
+            float: left;
+            padding: 0px;
+            background-color: #FF9800;
+            color: #fff;
+            background-position: center;
+
+        }
+
         .parte1 {
             float: left;
 
@@ -88,40 +109,49 @@
     <div style="width: 100%; height: 50%;">
         <!--div 1-->
         <div class="div-1">
-            <h1 style="color:#275C7A;">DICOZAM </h1>
+            <h1 style="color:#275C7A; font-family: arial black;">DICOZAM </h1>
             <center>
-                <h2 style="color: white; ">DESCUBRE LOS COMERCIOS DE TU CIUDAD</h2>
+                <h2 style="color: white; font-family: andale mono ;">DESCUBRE LOS COMERCIOS DE TU CIUDAD</h2>
             </center>
             <h4 style="color:#000000">Directorio Comercial de Zamora</h4>
         </div>
         <!--div 2-->
         <div class="div-2">
-            <h1 style="color: white;">INICIO</h1>
+            <nav id="men">
+                <ul>
+                    <b>
+                        <li><a href="/index.html">
+                                <h1 style="color: white;">INICIO</h1>
+                            </a></li>
+                    </b>
+                </ul>
+            </nav>
         </div>
-        <!--divbackg-->
-        <div class="divbackg">
-            <center>
-                <h1 style="color: white; font-size: 100px;">BIENVENIDOS</h1>
-            </center>
-        </div>
+    </div>
+    <!--divbackg-->
+    <div class="divbackg">
+        <center>
+            <h1 style="color: white; font-size: 100px; font-family: serif;">BIENVENIDOS</h1>
+        </center>
+    </div>
 
 
-        <!--menus temporales-->
+    <!--menus temporales-->
 
-        <nav id="menu">
+    <nav id="menu">
 
-            <ul>
-                <b>
-                    <li><a href="#">gasolineras</a></li>
-                    <li><a href="#">restaurantes</a></li>
-                    <li><a href="#">gimnasios</a></li>
-                    <li><a href="#">supermercados</a></li>
-                </b>
-            </ul>
+        <ul>
+            <b>
+                <li><a href="/paginas/gasolineras.html">gasolineras</a></li>
+                <li><a href="#">restaurantes</a></li>
+                <li><a href="/paginas/gimnasios.html">gimnasios</a></li>
+                <li><a href="#">supermercados</a></li>
+            </b>
+        </ul>
 
-        </nav>
-        <br>
-        <br>
+    </nav>
+    <br>
+    <br>
     </div>
     <div style="width: 100%; height: 50%;">
         <div class="parte1">
@@ -137,7 +167,7 @@
             <img src="imagenes/restaurant.jpg" style="height: 300px; width: 300px; float: left;">
         </div>
     </div>
-    
+
 
 </body>
 

@@ -1,0 +1,73 @@
+<style>
+.divbackg {
+    background-image: url("/imagenes/libro.jpg");
+    height: 200px;
+    width: 100%;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: 70%;
+}
+
+html {
+    background: white;
+    color: black;
+}
+
+.div-1 {
+    background-color: #FCBB14;
+    height: 35%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.div-2 {
+    background-color: #FF9800;
+    float: left;
+    height: 30%;
+    width: 100%;
+
+}
+
+
+#menu {
+    padding: 0px;
+
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #FF9800;
+    color: #fff;
+    background-position: center;
+
+}
+
+.parte1 {
+    float: left;
+
+    width: 33%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.parte2 {
+
+    width: 30%;
+    background-color: blue;
+}
+
+.parte3 {
+    float: right;
+
+    width: 33%;
+    background-color: rgb(255, 255, 255)(107, 76, 76);
+}
+</style>
